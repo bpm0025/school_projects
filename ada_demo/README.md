@@ -28,7 +28,10 @@ to integers, you may get a different number than what the program outputs when i
 results, it's because the binary numbers printed out by the program are backwards. This was done to satisfy the test cases that
 I was given (to the test cases, the binary numbers look correct). To get the actual binary number written correctly, simply write 
 it in reverse (take number the computer outputs, then start writing from the left with the least-significant-bit to the right with
-the most significant-bit).[^1] <br/> <br/>
+the most significant-bit).[^1] <br/>
+
+<br/> To test, edit, and run main.adb and other files associated with it, I highly reccomend using GNAT Studio.
+
 
 [^1]: Even more simply, you can:  
   A) Remove line 52, which is "Reverse_Bin_Arr(Copy);" in the Print_Bin_Arr() function of assgn.adb <br/>
